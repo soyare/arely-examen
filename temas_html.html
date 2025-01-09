@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Índice de Temas HTML</h1>
+        <p>Aprende los conceptos esenciales de HTML</p>
+    </header>
+
+    <nav>
+        <a href="login.php">Volver al inicio</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Temas a Tratar:</h2>
+            <ul>
+                <li><a href="#encabezados">1. Encabezados</a></li>
+                <li><a href="#parrafos">2. Párrafos</a></li>
+                <li><a href="#formateo">3. Formateo de texto</a></li>
+                <li><a href="#fuentes">4. Fuentes</a></li>
+                <li><a href="#listas">5. Los tres tipos principales de listas</a></li>
+                <li><a href="#graficas">6. Manejo de gráficas</a></li>
+                <li><a href="#enlaces">7. Tipos de enlaces</a></li>
+                <li><a href="#formularios">8. Creación de un formulario</a></li>
+            </ul>
+        </section>
+
+        <section id="encabezados">
+            <h3>1. Encabezados</h3>
+            <p>Los encabezados en HTML se utilizan para resaltar títulos de secciones o subsecciones en una página. Se utilizan etiquetas como <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.</p>
+        </section>
+
+        <section id="parrafos">
+            <h3>2. Párrafos</h3>
+            <p>Un párrafo en HTML se define con la etiqueta <code>&lt;p&gt;</code>. Es una de las estructuras más comunes para separar el contenido de texto.</p>
+        </section>
+
+        <section id="formateo">
+            <h3>3. Formateo de texto</h3>
+            <p>En HTML, puedes usar etiquetas como <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, y <code>&lt;u&gt;</code> para aplicar negrita, cursiva y subrayado al texto, respectivamente.</p>
+        </section>
+
+        <section id="fuentes">
+            <h3>4. Fuentes</h3>
+            <p>HTML permite cambiar el tipo de fuente con la etiqueta <code>&lt;font&gt;</code> (aunque actualmente se recomienda el uso de CSS).</p>
+        </section>
+
+        <section id="listas">
+            <h3>5. Los tres tipos principales de listas</h3>
+            <ul>
+                <li>Numeradas: Usando la etiqueta <code>&lt;ol&gt;</code>.</li>
+                <li>Sin numerar: Usando la etiqueta <code>&lt;ul&gt;</code>.</li>
+                <li>Glosario: Usando la etiqueta <code>&lt;dl&gt;</code> para definiciones.</li>
+            </ul>
+        </section>
+
+        <section id="graficas">
+            <h3>6. Manejo de gráficas</h3>
+            <p>El manejo de gráficas en HTML se puede hacer mediante el uso de imágenes (<code>&lt;img&gt;</code>) y atributos como <code>align</code> para alineación, <code>border</code> para márgenes, y <code>background</code> para establecer gráficos de fondo.</p>
+        </section>
+
+        <section id="enlaces">
+            <h3>7. Tipos de enlaces</h3>
+            <p>En HTML, existen tres tipos principales de enlaces:</p>
+            <ul>
+                <li>A otro sitio web: Usando <code>&lt;a href="http://...">&lt;/a&gt;</code>.</li>
+                <li>A otra página dentro del mismo sitio: Usando un enlace relativo.</li>
+                <li>A otro punto dentro de la misma página: Usando <code>&lt;a href="#id_del_punto">&lt;/a&gt;</code>.</li>
+            </ul>
+        </section>
+
+        <section id="formularios">
+            <h3>8. Creación de un formulario</h3>
+            <p>Los formularios en HTML se crean con la etiqueta <code>&lt;form&gt;</code>. Los elementos que puedes usar incluyen:</p>
+            <ul>
+                <li>Cajas de texto: <code>&lt;input type="text"&gt;</code></li>
+                <li>Cajas de verificación: <code>&lt;input type="checkbox"&gt;</code></li>
+                <li>Área de texto: <code>&lt;textarea&gt;</code></li>
+            </ul>
+        </section>
+    </div>
+
+
+</body>
+</html>

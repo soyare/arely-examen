@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas PHP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Índice de Temas PHP</h1>
+        <p>Aprende los conceptos esenciales de PHP</p>
+    </header>
+
+    <nav>
+        <a href="login.php">Volver al inicio</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Temas a Tratar:</h2>
+            <ul>
+                <li><a href="#tema1">1. ¿Qué es PHP y para qué se utiliza?</a></li>
+                <li><a href="#tema2">2. ¿Qué programas requiero para poder utilizar PHP?</a></li>
+                <li><a href="#tema3">3. ¿Qué es un servidor web?</a></li>
+                <li><a href="#tema4">4. ¿Qué es MySQL y qué diferencia hay entre SQL y MySQL?</a></li>
+                <li><a href="#tema5">5. ¿Cómo se usa PHP directamente en una página web?</a></li>
+                <li><a href="#tema6">6. ¿Qué son las variables y para qué sirven?</a></li>
+                <li><a href="#tema7">7. ¿Cuál es la variable string y qué función tiene?</a></li>
+                <li><a href="#tema8">8. ¿Cómo se usa la estructura if en PHP y para qué sirve?</a></li>
+                <li><a href="#tema9">9. Menciona cuáles son los repetidores que se usan en PHP y cómo se ocupan.</a></li>
+                <li><a href="#tema10">10. ¿Cómo se crea un formulario?</a></li>
+                <li><a href="#tema11">11. ¿Cómo crear un formulario y que la información se guarde en un bloc de notas?</a></li>
+                <li><a href="#tema12">12. ¿Cómo crear una base de datos en MySQL?</a></li>
+                <li><a href="#tema13">13. ¿Cómo crear una tabla en MySQL?</a></li>
+                <li><a href="#tema14">14. ¿Cómo crear un registro en MySQL?</a></li>
+                <li><a href="#tema15">15. ¿Cómo crear un formulario y que la información se almacene en una base de datos?</a></li>
+                <li><a href="#tema16">16. ¿Cómo crear un formulario que consulte la información guardada en una base de datos utilizando el correo o el nombre para obtener la información?</a></li>
+            </ul>
+        </section>
+
+        <section id="tema1">
+            <h3>1. ¿Qué es PHP y para qué se utiliza?</h3>
+            <p>PHP (Hypertext Preprocessor) es un lenguaje de programación de código abierto utilizado principalmente para crear sitios web dinámicos. Se ejecuta del lado del servidor y permite interactuar con bases de datos, crear contenido web dinámico y manejar formularios, entre otras funciones.</p>
+        </section>
+
+        <section id="tema2">
+            <h3>2. ¿Qué programas requiero para poder utilizar PHP?</h3>
+            <p>Para trabajar con PHP, necesitas un servidor web como Apache o Nginx y un intérprete de PHP. Además, una base de datos como MySQL o MariaDB es comúnmente utilizada. Puedes instalar paquetes como XAMPP o WAMP que incluyen todos estos servicios de forma fácil y rápida.</p>
+        </section>
+
+        <section id="tema3">
+            <h3>3. ¿Qué es un servidor web?</h3>
+            <p>Un servidor web es un software que gestiona las solicitudes HTTP que provienen de los navegadores. Su función principal es servir los archivos solicitados (como HTML, imágenes, o scripts PHP) y devolver una respuesta al cliente (navegador).</p>
+        </section>
+
+        <section id="tema4">
+            <h3>4. ¿Qué es MySQL y qué diferencia hay entre SQL y MySQL?</h3>
+            <p>MySQL es un sistema de gestión de bases de datos relacional que utiliza el lenguaje SQL para almacenar, consultar y manipular datos. SQL es el lenguaje de consulta utilizado para interactuar con bases de datos, mientras que MySQL es una implementación de un sistema de gestión de bases de datos que utiliza SQL.</p>
+        </section>
+
+        <section id="tema5">
+            <h3>5. ¿Cómo se usa PHP directamente en una página web?</h3>
+            <p>PHP se inserta directamente en los archivos HTML utilizando las etiquetas <code>&lt;?php ?&gt;</code>. El código PHP se procesa en el servidor, y el navegador solo recibe el HTML resultante.</p>
+        </section>
+
+        <section id="tema6">
+            <h3>6. ¿Qué son las variables y para qué sirven?</h3>
+            <p>Las variables en PHP son contenedores que almacenan datos. Estos datos pueden ser de diferentes tipos, como cadenas de texto, números o booleanos. Se declaran con el símbolo <code>$</code>, por ejemplo: <code>$nombre = "Juan";</code>.</p>
+        </section>
+
+        <section id="tema7">
+            <h3>7. ¿Cuál es la variable string y qué función tiene?</h3>
+            <p>La variable de tipo <code>string</code> se utiliza para almacenar cadenas de texto. Se define entre comillas simples o dobles, como por ejemplo: <code>$nombre = "Juan";</code>. Se usa para manejar y manipular texto.</p>
+        </section>
+
+        <section id="tema8">
+            <h3>8. ¿Cómo se usa la estructura if en PHP y para qué sirve?</h3>
+            <p>La estructura <code>if</code> permite ejecutar bloques de código dependiendo de si se cumple una condición. Ejemplo:</p>
+            <pre>
+                &lt;?php
+                if ($edad > 18) {
+                    echo "Eres mayor de edad";
+                } else {
+                    echo "Eres menor de edad";
+                }
+                ?&gt;
+            </pre>
+        </section>
+
+        <section id="tema9">
+            <h3>9. Menciona cuáles son los repetidores que se usan en PHP y cómo se ocupan.</h3>
+            <p>En PHP, los repetidores más comunes son <code>for</code>, <code>while</code>, y <code>foreach</code>. Se utilizan para ejecutar un bloque de código varias veces, según la condición que se establezca.</p>
+        </section>
+
+        <section id="tema10">
+            <h3>10. ¿Cómo se crea un formulario?</h3>
+            <p>Un formulario en PHP se crea usando la etiqueta <code>&lt;form&gt;</code>. Los campos de entrada se agregan mediante las etiquetas <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, y <code>&lt;select&gt;</code> entre otras.</p>
+        </section>
+
+        <section id="tema11">
+            <h3>11. ¿Cómo crear un formulario y que la información se guarde en un bloc de notas?</h3>
+            <p>Para guardar los datos de un formulario en un archivo de texto, puedes usar la función <code>file_put_contents()</code> en PHP, que permite escribir datos en un archivo.</p>
+        </section>
+
+        <section id="tema12">
+            <h3>12. ¿Cómo crear una base de datos en MySQL?</h3>
+            <p>Para crear una base de datos en MySQL, utilizamos el comando SQL: <code>CREATE DATABASE nombre_base;</code>. Esto crea una nueva base de datos que puedes utilizar para almacenar tablas y registros.</p>
+        </section>
+
+        <section id="tema13">
+            <h3>13. ¿Cómo crear una tabla en MySQL?</h3>
+            <p>Para crear una tabla en MySQL, usamos el comando SQL: <code>CREATE TABLE nombre_tabla (columna1 tipo, columna2 tipo, ...);</code>. Esto define la estructura de la tabla y los tipos de datos para cada columna.</p>
+        </section>
+
+        <section id="tema14">
+            <h3>14. ¿Cómo crear un registro en MySQL?</h3>
+            <p>Para insertar un registro en una tabla de MySQL, usamos el comando <code>INSERT INTO nombre_tabla (columna1, columna2, ...) VALUES (valor1, valor2, ...);</code>.</p>
+        </section>
+
+        <section id="tema15">
+            <h3>15. ¿Cómo crear un formulario y que la información se almacene en una base de datos?</h3>
+            <p>Un formulario puede enviar datos a PHP mediante el método POST. En el script PHP, los datos se reciben y se insertan en la base de datos utilizando el comando SQL <code>INSERT INTO</code>.</p>
+        </section>
+
+        <section id="tema16">
+            <h3>16. ¿Cómo crear un formulario que consulte la información guardada en una base de datos utilizando el correo o el nombre para obtener la información?</h3>
+            <p>Para consultar la información en la base de datos, se utiliza una consulta SQL <code>SELECT</code> en PHP, filtrando los registros por correo o nombre.</p>
+        </section>
+    </div>
+
+
+</body>
+</html>
